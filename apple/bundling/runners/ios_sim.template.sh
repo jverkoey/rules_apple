@@ -129,6 +129,9 @@ else
   simulator_name="Simulator"
 fi
 
+echo "1234 Test test test"
+echo "$XCODE_VERSION"
+
 # Get the developer path, like: /Applications/Xcode.app/Contents/Developer
 readonly DEVELOPER_PATH=$(xcode-select -p)
 
